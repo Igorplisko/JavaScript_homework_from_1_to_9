@@ -1,0 +1,28 @@
+.gallery {
+padding: 11% 1% 1% 1%;
+}
+
+
+
+
+html, body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+#gallery{
+    width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top:30%;
+}
+
+#gallery .photos img{
+    width: 100%;
+    display: none;
+}
+
+#gallery .photos img:first-child{
+    display: block;
+}

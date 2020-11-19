@@ -1,0 +1,12 @@
+img{
+height: 100px;
+width: 100px;
+}
+pre {
+		padding: 10 px 20px;
+		border: inset 1px;
+}
+
+p{
+		color:red;
+}

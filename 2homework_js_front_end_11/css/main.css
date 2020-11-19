@@ -1,0 +1,127 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0 15px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+.header img {
+	width: 200px;
+
+}
+
+.article {
+	display: flex;
+	flex-wrap: wrap;
+	float: left;
+	width: 77%;
+}
+.article > .section,
+.section_hw,
+.section_mission {
+	width: 49%;
+	margin: 0.5%;
+	box-shadow: 0 4px 8px 0 rgba(233, 102, 34, 0.2), 0 6px 20px 0 rgba(233, 102, 34, 0.19);
+	background-color: rgba(99, 193, 203, 0.87);
+	padding: 10px;
+	min-height: 317px;
+  position: relative;
+}
+
+.article > .section:nth-last-child(-n+12) {
+	display: none;
+}
+
+.aside a {
+	color: black;
+}
+
+.aside a:hover {
+	background-color: rgba(210, 105, 30, 0.58);
+}
+
+span.bold {
+	font-weight: bold;
+	position: absolute;
+	top: 79%;
+	left: 0;
+  color: #1d233f;
+	font-size: 22px;
+}
+.wrapper {
+	padding: 20px 50px;
+	width: 77%;
+	float: left;
+	box-shadow: 0 4px 8px 0 rgba(233, 102, 34, 0.2), 0 6px 20px 0 rgba(99, 193, 203, 0.87);
+}
+
+.back {
+	position: fixed;
+	bottom: 50px;
+	right: 10%;
+	font-size: 50px;
+}
+
+.section_hw {
+	max-height: 600px;
+
+}
+
+.section_hw img {
+	max-width: 80%;
+	max-height: 90%;
+}
+
+.section_mission {
+	text-align: center;
+}
+
+a.launch_btn {
+	color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: -1px -1px #000;
+  user-select: none;
+  padding: .8em 2em;
+  outline: none;
+  background-color: #040409;
+  background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(233, 102, 34, 0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(64, 78, 173, 0.7) 0%, rgba(34, 39, 41, 0.5) 50%, rgba(233, 102, 34, 0) 50%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto;
+  background-position: 200% 0, 0 0;
+  box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+} 
+
+
+a.launch_btn:active {
+  top: 1px;
+  box-shadow: none;
+	
+}
+a.launch_btn:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0;
+}
+
+
+p {
+	    margin-bottom: 7%;
+}
